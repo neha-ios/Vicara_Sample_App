@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17BBADA38162B0A274574146 /* Pods_Vicara_Sample_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D81848DAD2EEA6F4E346F45 /* Pods_Vicara_Sample_AppTests.framework */; };
+		CE349D3D25A615950019A560 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE349D3C25A615950019A560 /* Home.storyboard */; };
+		CE349D3F25A6231B0019A560 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE349D3E25A6231B0019A560 /* Podfile */; };
+		CE349D4225A623AF0019A560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE349D4125A623AF0019A560 /* ViewController.swift */; };
+		CE349D4425A623C90019A560 /* VCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE349D4325A623C90019A560 /* VCViewModel.swift */; };
+		CE349D4625A624150019A560 /* ServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE349D4525A624150019A560 /* ServiceApi.swift */; };
+		CE66CE9625A5F196008C1AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66CE9525A5F196008C1AFE /* AppDelegate.swift */; };
+		CE66CE9825A5F196008C1AFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66CE9725A5F196008C1AFE /* SceneDelegate.swift */; };
+		CE66CE9C25A5F19B008C1AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE66CE9B25A5F19B008C1AFE /* Assets.xcassets */; };
+		CE66CE9F25A5F19B008C1AFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE66CE9E25A5F19B008C1AFE /* Preview Assets.xcassets */; };
+		CE66CEA225A5F19B008C1AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE66CEA025A5F19B008C1AFE /* LaunchScreen.storyboard */; };
+		CE66CEAD25A5F19B008C1AFE /* Vicara_Sample_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66CEAC25A5F19B008C1AFE /* Vicara_Sample_AppTests.swift */; };
+		FACBEAAD98992284B2D1F1AC /* Pods_Vicara_Sample_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA467C20216E805FFE4640D /* Pods_Vicara_Sample_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE66CEA925A5F19B008C1AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE66CE8A25A5F196008C1AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE66CE9125A5F196008C1AFE;
+			remoteInfo = Vicara_Sample_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C48DE77E52E1F00F2599AA /* Pods-Vicara_Sample_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vicara_Sample_App.debug.xcconfig"; path = "Target Support Files/Pods-Vicara_Sample_App/Pods-Vicara_Sample_App.debug.xcconfig"; sourceTree = "<group>"; };
+		0EA467C20216E805FFE4640D /* Pods_Vicara_Sample_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vicara_Sample_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8C1FEEDDC843A31DD22E2F /* Pods-Vicara_Sample_AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vicara_Sample_AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Vicara_Sample_AppTests/Pods-Vicara_Sample_AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D81848DAD2EEA6F4E346F45 /* Pods_Vicara_Sample_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vicara_Sample_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D384B04170DAA44B4DE2870 /* Pods-Vicara_Sample_AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vicara_Sample_AppTests.release.xcconfig"; path = "Target Support Files/Pods-Vicara_Sample_AppTests/Pods-Vicara_Sample_AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE349D3C25A615950019A560 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CE349D3E25A6231B0019A560 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CE349D4125A623AF0019A560 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE349D4325A623C90019A560 /* VCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCViewModel.swift; sourceTree = "<group>"; };
+		CE349D4525A624150019A560 /* ServiceApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceApi.swift; sourceTree = "<group>"; };
+		CE66CE9225A5F196008C1AFE /* Vicara_Sample_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vicara_Sample_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE66CE9525A5F196008C1AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE66CE9725A5F196008C1AFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE66CE9B25A5F19B008C1AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE66CE9E25A5F19B008C1AFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE66CEA125A5F19B008C1AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE66CEA325A5F19B008C1AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE66CEA825A5F19B008C1AFE /* Vicara_Sample_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vicara_Sample_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE66CEAC25A5F19B008C1AFE /* Vicara_Sample_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vicara_Sample_AppTests.swift; sourceTree = "<group>"; };
+		CE66CEAE25A5F19B008C1AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9169699B46497E8F55E6A4 /* Pods-Vicara_Sample_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vicara_Sample_App.release.xcconfig"; path = "Target Support Files/Pods-Vicara_Sample_App/Pods-Vicara_Sample_App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE66CE8F25A5F196008C1AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACBEAAD98992284B2D1F1AC /* Pods_Vicara_Sample_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE66CEA525A5F19B008C1AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BBADA38162B0A274574146 /* Pods_Vicara_Sample_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A2E0DC561140A31520AB684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EA467C20216E805FFE4640D /* Pods_Vicara_Sample_App.framework */,
+				5D81848DAD2EEA6F4E346F45 /* Pods_Vicara_Sample_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA9FBF59689F4F0445019B03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09C48DE77E52E1F00F2599AA /* Pods-Vicara_Sample_App.debug.xcconfig */,
+				DC9169699B46497E8F55E6A4 /* Pods-Vicara_Sample_App.release.xcconfig */,
+				4B8C1FEEDDC843A31DD22E2F /* Pods-Vicara_Sample_AppTests.debug.xcconfig */,
+				7D384B04170DAA44B4DE2870 /* Pods-Vicara_Sample_AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE349D4025A623960019A560 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				CE349D4125A623AF0019A560 /* ViewController.swift */,
+				CE349D4325A623C90019A560 /* VCViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		CE66CE8925A5F196008C1AFE = {
+			isa = PBXGroup;
+			children = (
+				CE349D3E25A6231B0019A560 /* Podfile */,
+				CE66CE9425A5F196008C1AFE /* Vicara_Sample_App */,
+				CE66CEAB25A5F19B008C1AFE /* Vicara_Sample_AppTests */,
+				CE66CE9325A5F196008C1AFE /* Products */,
+				AA9FBF59689F4F0445019B03 /* Pods */,
+				6A2E0DC561140A31520AB684 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE66CE9325A5F196008C1AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE66CE9225A5F196008C1AFE /* Vicara_Sample_App.app */,
+				CE66CEA825A5F19B008C1AFE /* Vicara_Sample_AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE66CE9425A5F196008C1AFE /* Vicara_Sample_App */ = {
+			isa = PBXGroup;
+			children = (
+				CE349D4525A624150019A560 /* ServiceApi.swift */,
+				CE349D4025A623960019A560 /* MVVM */,
+				CE66CE9525A5F196008C1AFE /* AppDelegate.swift */,
+				CE66CE9725A5F196008C1AFE /* SceneDelegate.swift */,
+				CE66CE9B25A5F19B008C1AFE /* Assets.xcassets */,
+				CE66CEA025A5F19B008C1AFE /* LaunchScreen.storyboard */,
+				CE349D3C25A615950019A560 /* Home.storyboard */,
+				CE66CEA325A5F19B008C1AFE /* Info.plist */,
+				CE66CE9D25A5F19B008C1AFE /* Preview Content */,
+			);
+			path = Vicara_Sample_App;
+			sourceTree = "<group>";
+		};
+		CE66CE9D25A5F19B008C1AFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE66CE9E25A5F19B008C1AFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE66CEAB25A5F19B008C1AFE /* Vicara_Sample_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE66CEAC25A5F19B008C1AFE /* Vicara_Sample_AppTests.swift */,
+				CE66CEAE25A5F19B008C1AFE /* Info.plist */,
+			);
+			path = Vicara_Sample_AppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE66CE9125A5F196008C1AFE /* Vicara_Sample_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE66CEB125A5F19B008C1AFE /* Build configuration list for PBXNativeTarget "Vicara_Sample_App" */;
+			buildPhases = (
+				08A08B81E7D3D8300D0523BB /* [CP] Check Pods Manifest.lock */,
+				CE66CE8E25A5F196008C1AFE /* Sources */,
+				CE66CE8F25A5F196008C1AFE /* Frameworks */,
+				CE66CE9025A5F196008C1AFE /* Resources */,
+				A6F2B5936AD642E7D1B9CFB5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vicara_Sample_App;
+			productName = Vicara_Sample_App;
+			productReference = CE66CE9225A5F196008C1AFE /* Vicara_Sample_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE66CEA725A5F19B008C1AFE /* Vicara_Sample_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE66CEB425A5F19B008C1AFE /* Build configuration list for PBXNativeTarget "Vicara_Sample_AppTests" */;
+			buildPhases = (
+				38CE1F659952F2764CD9F234 /* [CP] Check Pods Manifest.lock */,
+				CE66CEA425A5F19B008C1AFE /* Sources */,
+				CE66CEA525A5F19B008C1AFE /* Frameworks */,
+				CE66CEA625A5F19B008C1AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE66CEAA25A5F19B008C1AFE /* PBXTargetDependency */,
+			);
+			name = Vicara_Sample_AppTests;
+			productName = Vicara_Sample_AppTests;
+			productReference = CE66CEA825A5F19B008C1AFE /* Vicara_Sample_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE66CE8A25A5F196008C1AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Neha Chaudhary";
+				TargetAttributes = {
+					CE66CE9125A5F196008C1AFE = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					CE66CEA725A5F19B008C1AFE = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CE66CE9125A5F196008C1AFE;
+					};
+				};
+			};
+			buildConfigurationList = CE66CE8D25A5F196008C1AFE /* Build configuration list for PBXProject "Vicara_Sample_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE66CE8925A5F196008C1AFE;
+			productRefGroup = CE66CE9325A5F196008C1AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE66CE9125A5F196008C1AFE /* Vicara_Sample_App */,
+				CE66CEA725A5F19B008C1AFE /* Vicara_Sample_AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE66CE9025A5F196008C1AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE349D3F25A6231B0019A560 /* Podfile in Resources */,
+				CE66CEA225A5F19B008C1AFE /* LaunchScreen.storyboard in Resources */,
+				CE66CE9F25A5F19B008C1AFE /* Preview Assets.xcassets in Resources */,
+				CE66CE9C25A5F19B008C1AFE /* Assets.xcassets in Resources */,
+				CE349D3D25A615950019A560 /* Home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE66CEA625A5F19B008C1AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08A08B81E7D3D8300D0523BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vicara_Sample_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38CE1F659952F2764CD9F234 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vicara_Sample_AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F2B5936AD642E7D1B9CFB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vicara_Sample_App/Pods-Vicara_Sample_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vicara_Sample_App/Pods-Vicara_Sample_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vicara_Sample_App/Pods-Vicara_Sample_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE66CE8E25A5F196008C1AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE66CE9625A5F196008C1AFE /* AppDelegate.swift in Sources */,
+				CE349D4425A623C90019A560 /* VCViewModel.swift in Sources */,
+				CE66CE9825A5F196008C1AFE /* SceneDelegate.swift in Sources */,
+				CE349D4225A623AF0019A560 /* ViewController.swift in Sources */,
+				CE349D4625A624150019A560 /* ServiceApi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE66CEA425A5F19B008C1AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE66CEAD25A5F19B008C1AFE /* Vicara_Sample_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE66CEAA25A5F19B008C1AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE66CE9125A5F196008C1AFE /* Vicara_Sample_App */;
+			targetProxy = CE66CEA925A5F19B008C1AFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE66CEA025A5F19B008C1AFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE66CEA125A5F19B008C1AFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE66CEAF25A5F19B008C1AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE66CEB025A5F19B008C1AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE66CEB225A5F19B008C1AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C48DE77E52E1F00F2599AA /* Pods-Vicara_Sample_App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vicara_Sample_App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Vicara_Sample_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vicara-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE66CEB325A5F19B008C1AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9169699B46497E8F55E6A4 /* Pods-Vicara_Sample_App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vicara_Sample_App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Vicara_Sample_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vicara-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE66CEB525A5F19B008C1AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8C1FEEDDC843A31DD22E2F /* Pods-Vicara_Sample_AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Vicara_Sample_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vicara-Sample-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vicara_Sample_App.app/Vicara_Sample_App";
+			};
+			name = Debug;
+		};
+		CE66CEB625A5F19B008C1AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D384B04170DAA44B4DE2870 /* Pods-Vicara_Sample_AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Vicara_Sample_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vicara-Sample-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vicara_Sample_App.app/Vicara_Sample_App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE66CE8D25A5F196008C1AFE /* Build configuration list for PBXProject "Vicara_Sample_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE66CEAF25A5F19B008C1AFE /* Debug */,
+				CE66CEB025A5F19B008C1AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE66CEB125A5F19B008C1AFE /* Build configuration list for PBXNativeTarget "Vicara_Sample_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE66CEB225A5F19B008C1AFE /* Debug */,
+				CE66CEB325A5F19B008C1AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE66CEB425A5F19B008C1AFE /* Build configuration list for PBXNativeTarget "Vicara_Sample_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE66CEB525A5F19B008C1AFE /* Debug */,
+				CE66CEB625A5F19B008C1AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE66CE8A25A5F196008C1AFE /* Project object */;
+}
